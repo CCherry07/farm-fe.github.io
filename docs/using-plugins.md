@@ -125,7 +125,7 @@ export default defineConfig({
       load: {
         // to improve performance, modules will be skipped if they don't match the filters.
         filters: {
-          // only be executed for .png files.
+          // only be executed for .txt files.
           resolvedPaths: ['\\.txt$']
         },
         // executor callback for this hook

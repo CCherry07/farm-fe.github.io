@@ -120,7 +120,7 @@ export default defineConfig({
       load: {
         // 为了提高性能，如果模块与过滤器不匹配，将被跳过。
         filters: {
-          // 仅对 .png 文件执行。
+          // 仅对 .txt 文件执行。
           resolvedPaths: ['\\.txt$']
         },
         // 该钩子的执行回调
